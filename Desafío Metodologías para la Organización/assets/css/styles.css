@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #171717;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0;
+}
+
+.h-card {
+  display: flex;
+  margin: 1rem;
+  border-radius: 2.5rem;
+  flex-direction: row;
+  width: calc(2.7 * 8rem);
+  height: 8rem;
+}
+.h-card__img {
+  height: 8rem;
+  width: 10.4rem;
+  margin-right: 1rem;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.h-card__title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.main-card {
+  display: flex;
+  margin: 1rem;
+  border-radius: 2.5rem;
+  flex-direction: column;
+}
+.main-card__img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.card__date {
+  font-weight: 300;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.user-sign-medium {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0.3rem;
+  align-items: center;
+}
+.user-sign-medium__text {
+  font-weight: 400;
+}
+.user-sign-medium__img {
+  box-shadow: 2px 3px 7px black;
+  border-radius: 50%;
+  height: 1.6rem;
+  margin-right: 0.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
